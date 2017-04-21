@@ -11,5 +11,4 @@ app.listen(port);
 console.log('server started '+ port);
 
 app.get('/', (req, res) => {
-	document.write(res);
 });
