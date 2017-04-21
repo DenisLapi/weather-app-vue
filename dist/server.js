@@ -10,5 +10,4 @@ app.listen(port);
 
 console.log('server started '+ port);
 
-app.get('/', (req, res) => {
-});
+app.get('/', function(req, res) { res.send('Hello world'); })
